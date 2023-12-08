@@ -1,0 +1,608 @@
+.logo {
+    margin-left: 80px;
+    width: 150px;
+    height: auto;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    color: black;
+    list-style-type: none; /* Set list style type to none */
+}
+
+.data li {
+    margin-right: 20px;
+    color: black;
+}
+
+.container img {
+    height: 500px;
+    width: 100%;
+}
+
+.image-with-text {
+    position: relative;
+    text-align: left;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+}
+
+.shop-button {
+    display: block;
+    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section {
+    display: flex; /* Add flex display property */
+    justify-content: space-evenly;
+}
+
+
+.class-card {
+    border: 1px solid whitesmoke;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    /* Remove margin-right property */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.class-card img {
+    width: 100%;
+    display: block;
+    
+}
+.shipping1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    max-width: 40%; /* Set a maximum width for better visibility within the card */
+    font-size: small;
+    color: green;
+    padding: 10px;
+    background-color: darksalmon;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shipping2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    max-width: 40%; /* Set a maximum width for better visibility within the card */
+    font-size: small;
+    color: green;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shipping3 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    max-width: 40%; /* Set a maximum width for better visibility within the card */
+    font-size: small;
+    color: green;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shipping4 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    max-width: 40%; /* Set a maximum width for better visibility within the card */
+    font-size: small;
+    color: green;
+    padding: 10px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shipping5 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    max-width: 40%; /* Set a maximum width for better visibility within the card */
+    font-size: small;
+    color: green;
+    padding: 10px;
+    background-color: lightcoral;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shipping6 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    max-width: 40%; /* Set a maximum width for better visibility within the card */
+    font-size: small;
+    color: green;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fp{
+    text-align: center;
+    color: black;
+    font-size: 5em;
+}
+.sc{
+    text-align: center;
+    color: black;
+    font-size: small;
+}
+.productimages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 20px;
+}
+
+.tshirt {
+    width: 250px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 400px;
+}
+.tshirt img{
+    max-width: 100%;
+    
+}
+.section {
+    display: flex; /* Add flex display property */
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.banner {
+    position: relative; 
+}
+
+.banner img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    color: #fff; 
+}
+
+.banner-text h1 {
+    margin: 0; 
+    font-size: 15px; 
+}
+
+.banner-text h2 {
+    margin: 0; 
+    font-size: 2em;
+}
+
+.banner-button {
+    font-size: xx-large;
+    height: 50px;
+    width: auto;
+    padding: 50px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    margin: 8px;
+}
+
+h6 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2px;
+}
+
+.productimages-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    padding: 20px;
+   
+}
+
+.productimages-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    padding: 20px;
+   
+}
+
+.tshirt-1 {
+    width: 200px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 350px;
+}
+.tshirt-1 img {
+    max-width: 100%;
+    max-height: 90%;
+    
+}
+
+.banners-container {
+    display: flex;
+    justify-content: space-evenly/* Add space between the two banners */
+    margin: 5px; /* Adjust the margin as needed */
+}
+
+.banner-img,
+.banner-2 {
+    position: relative;
+    width: 70%; /* Adjust the width as needed */
+}
+
+.banner-img img,
+.banner-2 img {
+    width: 90%;
+    height: 100%;
+    display: block;
+}
+
+.banner-img-text,
+.banner-2-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-10%, -30%);
+    text-align: left;
+    color: white;
+    width: 80%;
+}
+
+
+.bold-text {
+    margin: 2px;
+    font-size: 30px;
+    font-weight: bold; /* Added to make the text bold */
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.banner-img-text p {
+    margin: 2px;
+    font-size: 20px; 
+    font-weight: bolder;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.banner-img-text p1 {
+    margin: 2px;
+    font-size: 15px; 
+    font-weight: lighter;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.banner-img-text h7 {
+    margin: 2px;
+    font-size: 40px; 
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.banner-img-button {
+    font-size: 15px;
+    height: 50px;
+    width: auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin: 8px;
+    color: white;
+    background-color: transparent;
+    font-weight: bolder;
+    
+    
+}
+
+
+.bold-text {
+    margin: 2px;
+    font-size: 30px;
+    font-weight: bold; /* Added to make the text bold */
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.banner-2-text p2 {
+    margin: 2px;
+    font-size: 20px; 
+    font-weight: bolder;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.banner-2-text p3 {
+    margin: 2px;
+    font-size: 15px; 
+    font-weight: lighter;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.banner-2-text h8 {
+    margin: 2px;
+    font-size: 40px; 
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.banner-2-button {
+    font-size: 15px;
+    height: 50px;
+    width: auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin: 8px;
+    color: white;
+    background-color: transparent;
+    font-weight: bolder;
+    
+    
+}
+
+.banners-container-1 {
+    display: flex;
+    justify-content: space-around;/* Add space between the two banners */
+    margin: 2px;
+    
+}
+
+.banner-3,
+.banner-4,
+.banner-5 {
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    margin: 2px;
+}
+
+.banner-3 img,
+.banner-4 img,
+.banner-5 img {
+    width: 90%;
+    height: 80%;
+    display: block;
+}
+
+.banner-3-text,
+.banner-4-text,
+.banner-5-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-10%, -30%);
+    text-align: left;
+    color: white;
+    width: 70%;
+}
+
+
+.bold-text {
+    margin: 2px;
+    font-size: 30px;
+    font-weight: bold; /* Added to make the text bold */
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.banner-3-text p4 {
+    margin: 2px;
+    font-size: 12px; 
+    font-weight: bold;
+    text-align: left;
+    color: maroon;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.banner-3-text h9 {
+    margin: 2px;
+    font-size: 22px; 
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.banner-4-text p5 {
+    margin: 2px;
+    font-size: 12px; 
+    font-weight: bold;
+    text-align: left;
+    color: maroon;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.banner-4-text h10 {
+    margin: 2px;
+    font-size: 22px; 
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.banner-4-text h11 {
+    margin: 2px;
+    font-size: 22px; 
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.banner-5-text p6 {
+    margin: 2px;
+    font-size: 12px; 
+    font-weight: bold;
+    text-align: left;
+    color: maroon;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.banner-5-text h12 {
+    margin: 2px;
+    font-size: 22px; 
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.banner-6 {
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    background-color: midnightblue;
+    height: 150px;
+    text-decoration: white;
+
+}
+
+.banner-6 img {
+    width: 100%;
+    height: 120px;
+    display: block;
+}
+
+.banner-6-text {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-10%, -40%);
+    text-align: left;
+    color: white;
+    width: 40%;
+}
+
+
+.bold-text {
+    margin: 2px;
+    font-size: 30px;
+    font-weight: bold; /* Added to make the text bold */
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-img-text p7 {
+    margin: 2px;
+    font-size: 15px; 
+    font-weight: lighter;
+    text-align: left;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.banner-img-text h13 {
+    margin: 2px;
+    font-size: 40px; 
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.banner-6-button,button2 {
+    font-size: xx-large;
+    height: 50px;
+    width: auto;
+    padding: 50px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    margin: 8px;
+}
